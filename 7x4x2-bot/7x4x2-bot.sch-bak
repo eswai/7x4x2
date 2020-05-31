@@ -1,0 +1,1047 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push K1
+U 1 1 5B0EA658
+P 2000 4700
+F 0 "K1" H 2000 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2000 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2000 4700 60  0001 C CNN
+F 3 "" H 2000 4700 60  0000 C CNN
+	1    2000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5B0EE9D3
+P 8500 3450
+F 0 "J2" H 8500 3650 50  0000 C CNN
+F 1 "Conn_01x04" H 8500 3150 50  0000 C CNN
+F 2 "locallib:programming_port" H 8500 3450 50  0001 C CNN
+F 3 "" H 8500 3450 50  0001 C CNN
+	1    8500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5B11573B
+P 2750 1300
+F 0 "C1" V 3000 1300 50  0000 C CNN
+F 1 "0.1uF" V 2900 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 1150 50  0001 C CNN
+F 3 "" H 2750 1300 50  0001 C CNN
+	1    2750 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5B115741
+P 3000 1300
+F 0 "#PWR04" H 3000 1050 50  0001 C CNN
+F 1 "GND" H 3000 1150 50  0000 C CNN
+F 2 "" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0001 C CNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5B11E53F
+P 2500 1100
+F 0 "#PWR01" H 2500 950 50  0001 C CNN
+F 1 "VCC" H 2500 1250 50  0000 C CNN
+F 2 "" H 2500 1100 50  0001 C CNN
+F 3 "" H 2500 1100 50  0001 C CNN
+	1    2500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5B11F4D1
+P 2400 3850
+F 0 "#PWR07" H 2400 3600 50  0001 C CNN
+F 1 "GND" H 2400 3700 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+Text Label 3500 1800 0    60   ~ 0
+SWDIO
+Text Label 3500 1700 0    60   ~ 0
+SWDCLK
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5B128AD6
+P 4200 1200
+F 0 "#FLG01" H 4200 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 1350 50  0000 C CNN
+F 2 "" H 4200 1200 50  0001 C CNN
+F 3 "" H 4200 1200 50  0001 C CNN
+	1    4200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5B128B9C
+P 4200 1200
+F 0 "#PWR02" H 4200 950 50  0001 C CNN
+F 1 "GND" H 4200 1050 50  0000 C CNN
+F 2 "" H 4200 1200 50  0001 C CNN
+F 3 "" H 4200 1200 50  0001 C CNN
+	1    4200 1200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9250 -1600
+$Comp
+L Switch:SW_Push K7
+U 1 1 5BEC7B8B
+P 5875 4700
+F 0 "K7" H 5875 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5875 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5875 4700 60  0001 C CNN
+F 3 "" H 5875 4700 60  0000 C CNN
+	1    5875 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K2
+U 1 1 5BEDF7A5
+P 2650 4700
+F 0 "K2" H 2650 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2650 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 4700 60  0001 C CNN
+F 3 "" H 2650 4700 60  0000 C CNN
+	1    2650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K3
+U 1 1 5BF0781D
+P 3300 4700
+F 0 "K3" H 3300 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3300 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3300 4700 60  0001 C CNN
+F 3 "" H 3300 4700 60  0000 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K4
+U 1 1 5BF0E12D
+P 3950 4700
+F 0 "K4" H 3950 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3950 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3950 4700 60  0001 C CNN
+F 3 "" H 3950 4700 60  0000 C CNN
+	1    3950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K5
+U 1 1 5C2459B2
+P 4600 4700
+F 0 "K5" H 4600 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 4600 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4600 4700 60  0001 C CNN
+F 3 "" H 4600 4700 60  0000 C CNN
+	1    4600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K6
+U 1 1 5C293EC7
+P 5250 4700
+F 0 "K6" H 5250 4600 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5250 4600 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5250 4700 60  0001 C CNN
+F 3 "" H 5250 4700 60  0000 C CNN
+	1    5250 4700
+	1    0    0    -1  
+$EndComp
+Text Notes 550  650  0    60   ~ 0
+LEFT_HALF
+Wire Notes Line
+	5150 800  700  800 
+Text Notes 800  950  0    60   ~ 0
+BL652 MODULE
+Wire Wire Line
+	2500 1300 2600 1300
+Text Notes 5300 950  0    60   ~ 0
+SWITCH
+Wire Notes Line
+	13150 2800 13150 800 
+Wire Notes Line
+	13150 800  5200 800 
+Wire Notes Line
+	9750 4100 9750 2850
+Wire Notes Line
+	13350 4400 13350 500 
+Wire Notes Line
+	500  4400 500  500 
+Wire Notes Line
+	500  500  13350 500 
+Wire Notes Line
+	11350 4100 11350 2850
+Text Notes 9900 3000 0    60   ~ 0
+MOUSE BITES
+Wire Notes Line
+	9800 4100 11350 4100
+Wire Notes Line
+	11350 2850 9800 2850
+Wire Notes Line
+	9800 2850 9800 4100
+NoConn ~ 4925 8400
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5CB3F2B3
+P 3700 8100
+F 0 "J3" H 3727 8076 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 3500 8200 31  0000 L CNN
+F 2 "locallib:BK-869" H 3700 8100 50  0001 C CNN
+F 3 "~" H 3700 8100 50  0001 C CNN
+	1    3700 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 5BF24228
+P 5525 8050
+F 0 "#PWR010" H 5525 7900 50  0001 C CNN
+F 1 "VCC" H 5525 8200 50  0000 C CNN
+F 2 "" H 5525 8050 50  0001 C CNN
+F 3 "" H 5525 8050 50  0001 C CNN
+	1    5525 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5BF23F84
+P 3900 8200
+F 0 "#PWR011" H 3900 7950 50  0001 C CNN
+F 1 "GND" H 3900 8050 50  0000 C CNN
+F 2 "" H 3900 8200 50  0001 C CNN
+F 3 "" H 3900 8200 50  0001 C CNN
+	1    3900 8200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8200 2850 8200 4100
+Wire Notes Line
+	3325 7700 6275 7700
+Wire Notes Line
+	9750 2850 8200 2850
+Wire Notes Line
+	3325 8950 6275 8950
+Wire Notes Line
+	8200 4100 9750 4100
+Text Notes 8300 3000 0    60   ~ 0
+PROGRAMMING HEADER
+Wire Notes Line
+	6275 7700 6275 8950
+Wire Notes Line
+	3325 7700 3325 8950
+Wire Notes Line
+	5200 800  5200 2800
+Wire Notes Line
+	5200 2800 13150 2800
+Text Notes 3425 7850 0    60   ~ 0
+BATTERY
+Wire Notes Line
+	5150 4100 5150 800 
+Wire Notes Line
+	700  4100 5150 4100
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5B1BB154
+P 5125 8300
+F 0 "SW2" H 5125 8000 50  0000 C CNN
+F 1 "SW_SPDT" H 5125 8100 50  0000 C CNN
+F 2 "eswai:679-1847-1-ND‎" H 5125 8300 50  0001 C CNN
+F 3 "" H 5125 8300 50  0001 C CNN
+	1    5125 8300
+	-1   0    0    1   
+$EndComp
+Text Label 8700 3450 0    60   ~ 0
+SWDIO
+Text Label 8700 3350 0    60   ~ 0
+SWDCLK
+Wire Wire Line
+	2900 1300 3000 1300
+$Comp
+L power:GND #PWR08
+U 1 1 5D968FE5
+P 8900 3850
+F 0 "#PWR08" H 8900 3600 50  0001 C CNN
+F 1 "GND" H 8900 3700 50  0000 C CNN
+F 2 "" H 8900 3850 50  0001 C CNN
+F 3 "" H 8900 3850 50  0001 C CNN
+	1    8900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3550 8900 3550
+Wire Wire Line
+	8900 3550 8900 3850
+Wire Notes Line
+	12350 4100 12350 2850
+Text Notes 11500 3000 0    60   ~ 0
+LOGO
+Wire Notes Line
+	11400 4100 12350 4100
+Wire Notes Line
+	12350 2850 11400 2850
+Wire Notes Line
+	11400 2850 11400 4100
+Wire Wire Line
+	2400 3600 2400 3700
+Wire Wire Line
+	2400 3700 2500 3700
+Wire Wire Line
+	2700 3700 2700 3600
+Wire Wire Line
+	2500 3600 2500 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	2500 3700 2600 3700
+Wire Wire Line
+	2600 3600 2600 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2600 3700 2700 3700
+Wire Wire Line
+	2400 3700 2400 3850
+Connection ~ 2400 3700
+$Comp
+L RF_Bluetooth:BL652 U1
+U 1 1 5B0E95BA
+P 2500 2600
+F 0 "U1" H 1800 3650 40  0000 C CNN
+F 1 "BL652_LEFT" H 2500 2600 40  0000 C CNN
+F 2 "locallib:Laird_BL652_Hand" H 2150 2850 40  0001 C CNN
+F 3 "" H 2250 2950 40  0000 C CNN
+	1    2500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1100 2500 1300
+Connection ~ 2500 1300
+Wire Wire Line
+	2500 1300 2500 1500
+$Comp
+L power:GND #PWR05
+U 1 1 5D8B63B4
+P 850 1900
+F 0 "#PWR05" H 850 1650 50  0001 C CNN
+F 1 "GND" H 850 1750 50  0000 C CNN
+F 2 "" H 850 1900 50  0001 C CNN
+F 3 "" H 850 1900 50  0001 C CNN
+	1    850  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D889EBA
+P 1150 1800
+F 0 "SW1" H 1150 1700 60  0000 C CNN
+F 1 "RESET_SW" H 1150 1700 60  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 1150 1800 60  0001 C CNN
+F 3 "" H 1150 1800 60  0000 C CNN
+	1    1150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 8300 5525 8300
+Wire Wire Line
+	4325 8200 4925 8200
+Wire Wire Line
+	5525 8050 5525 8300
+$Comp
+L power:VCC #PWR06
+U 1 1 5DA20D44
+P 9300 3250
+F 0 "#PWR06" H 9300 3100 50  0001 C CNN
+F 1 "VCC" H 9300 3400 50  0000 C CNN
+F 2 "" H 9300 3250 50  0001 C CNN
+F 3 "" H 9300 3250 50  0001 C CNN
+	1    9300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3650 9300 3250
+Wire Wire Line
+	8700 3650 9300 3650
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D799352
+P 4700 1200
+F 0 "#FLG02" H 4700 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 1350 50  0000 C CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5DA52543
+P 4700 1200
+F 0 "#PWR03" H 4700 1050 50  0001 C CNN
+F 1 "VCC" H 4700 1350 50  0000 C CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5D9F4C38
+P 3950 3100
+F 0 "J1" H 4030 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 4030 3051 50  0000 L CNN
+F 2 "locallib:breakout-pad" H 3950 3100 50  0001 C CNN
+F 3 "~" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3100 3500 3100
+Wire Wire Line
+	850  1900 850  1800
+Wire Wire Line
+	850  1800 950  1800
+Wire Wire Line
+	1500 1800 1350 1800
+$Comp
+L Device:C C2
+U 1 1 5E6E9C63
+P 4325 8050
+F 0 "C2" H 4440 8096 50  0000 L CNN
+F 1 "100uF" H 4440 8005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4363 7900 50  0001 C CNN
+F 3 "~" H 4325 8050 50  0001 C CNN
+	1    4325 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5E6EB2A3
+P 4325 7900
+F 0 "#PWR09" H 4325 7650 50  0001 C CNN
+F 1 "GND" H 4330 7727 50  0000 C CNN
+F 2 "" H 4325 7900 50  0001 C CNN
+F 3 "" H 4325 7900 50  0001 C CNN
+	1    4325 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E50DAEC
+P 13900 3025
+F 0 "H1" H 14000 3071 50  0000 L CNN
+F 1 "MountingHole" H 14000 2980 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 13900 3025 50  0001 C CNN
+F 3 "~" H 13900 3025 50  0001 C CNN
+	1    13900 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E50DFF3
+P 13900 3325
+F 0 "H2" H 14000 3371 50  0000 L CNN
+F 1 "MountingHole" H 14000 3280 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 13900 3325 50  0001 C CNN
+F 3 "~" H 13900 3325 50  0001 C CNN
+	1    13900 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E50EB9F
+P 13900 3650
+F 0 "H3" H 14000 3696 50  0000 L CNN
+F 1 "MountingHole" H 14000 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 13900 3650 50  0001 C CNN
+F 3 "~" H 13900 3650 50  0001 C CNN
+	1    13900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E50EBA9
+P 13900 3950
+F 0 "H4" H 14000 3996 50  0000 L CNN
+F 1 "MountingHole" H 14000 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 13900 3950 50  0001 C CNN
+F 3 "~" H 13900 3950 50  0001 C CNN
+	1    13900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5E51C383
+P 13900 4275
+F 0 "H5" H 14000 4321 50  0000 L CNN
+F 1 "MountingHole" H 14000 4230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 13900 4275 50  0001 C CNN
+F 3 "~" H 13900 4275 50  0001 C CNN
+	1    13900 4275
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	700  800  700  4100
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5E806222
+P 3700 8700
+F 0 "J4" H 3727 8676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 3500 8800 31  0000 L CNN
+F 2 "locallib:BK-869" H 3700 8700 50  0001 C CNN
+F 3 "~" H 3700 8700 50  0001 C CNN
+	1    3700 8700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5E80AC02
+P 4100 8250
+F 0 "D1" V 4146 8171 50  0000 R CNN
+F 1 "D" V 4055 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4100 8250 50  0001 C CNN
+F 3 "~" H 4100 8250 50  0001 C CNN
+	1    4100 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5E80F8A9
+P 4100 8850
+F 0 "D2" V 4146 8771 50  0000 R CNN
+F 1 "D" V 4055 8771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4100 8850 50  0001 C CNN
+F 3 "~" H 4100 8850 50  0001 C CNN
+	1    4100 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5E817E85
+P 3900 8800
+F 0 "#PWR012" H 3900 8550 50  0001 C CNN
+F 1 "GND" H 3900 8650 50  0000 C CNN
+F 2 "" H 3900 8800 50  0001 C CNN
+F 3 "" H 3900 8800 50  0001 C CNN
+	1    3900 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 8100 4100 8100
+Wire Wire Line
+	3900 8700 4100 8700
+Wire Wire Line
+	4100 8400 4325 8400
+Wire Wire Line
+	4325 8400 4325 8200
+Connection ~ 4325 8200
+Wire Wire Line
+	4100 9000 4325 9000
+Wire Wire Line
+	4325 9000 4325 8400
+Connection ~ 4325 8400
+$Comp
+L Mechanical:MountingHole U2
+U 1 1 5DC10955
+P 11700 3300
+F 0 "U2" H 11878 3353 60  0000 L CNN
+F 1 "logo1" H 11878 3247 60  0000 L CNN
+F 2 "eswai:qmk" H 11700 3300 60  0001 C CNN
+F 3 "" H 11700 3300 60  0001 C CNN
+	1    11700 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 4700 1    60   Input ~ 0
+C1
+Text GLabel 2450 4700 1    60   Input ~ 0
+C2
+Text GLabel 3100 4700 1    60   Input ~ 0
+C3
+Text GLabel 3750 4700 1    60   Input ~ 0
+C4
+Text GLabel 4400 4700 1    60   Input ~ 0
+C5
+Text GLabel 5050 4700 1    60   Input ~ 0
+C6
+Text GLabel 5675 4700 1    60   Input ~ 0
+C7
+NoConn ~ -450 1925
+NoConn ~ -500 2075
+NoConn ~ -500 2175
+NoConn ~ -500 2275
+NoConn ~ -500 2375
+NoConn ~ -500 2475
+NoConn ~ -500 2575
+NoConn ~ -500 2675
+NoConn ~ -500 2775
+$Comp
+L Switch:SW_Push K8
+U 1 1 5ECCA686
+P 2000 5200
+F 0 "K8" H 2000 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2000 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2000 5200 60  0001 C CNN
+F 3 "" H 2000 5200 60  0000 C CNN
+	1    2000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K14
+U 1 1 5ECCA690
+P 5875 5200
+F 0 "K14" H 5875 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5875 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5875 5200 60  0001 C CNN
+F 3 "" H 5875 5200 60  0000 C CNN
+	1    5875 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K9
+U 1 1 5ECCA69A
+P 2650 5200
+F 0 "K9" H 2650 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2650 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 5200 60  0001 C CNN
+F 3 "" H 2650 5200 60  0000 C CNN
+	1    2650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K10
+U 1 1 5ECCA6A4
+P 3300 5200
+F 0 "K10" H 3300 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3300 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3300 5200 60  0001 C CNN
+F 3 "" H 3300 5200 60  0000 C CNN
+	1    3300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K11
+U 1 1 5ECCA6AE
+P 3950 5200
+F 0 "K11" H 3950 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3950 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3950 5200 60  0001 C CNN
+F 3 "" H 3950 5200 60  0000 C CNN
+	1    3950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K12
+U 1 1 5ECCA6B8
+P 4600 5200
+F 0 "K12" H 4600 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 4600 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4600 5200 60  0001 C CNN
+F 3 "" H 4600 5200 60  0000 C CNN
+	1    4600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K13
+U 1 1 5ECCA6C2
+P 5250 5200
+F 0 "K13" H 5250 5100 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5250 5100 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5250 5200 60  0001 C CNN
+F 3 "" H 5250 5200 60  0000 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 5200 1    60   Input ~ 0
+C8
+Text GLabel 2450 5200 1    60   Input ~ 0
+C9
+Text GLabel 3100 5200 1    60   Input ~ 0
+C10
+Text GLabel 3750 5200 1    60   Input ~ 0
+C11
+Text GLabel 4400 5200 1    60   Input ~ 0
+C12
+Text GLabel 5050 5200 1    60   Input ~ 0
+C13
+Text GLabel 5675 5200 1    60   Input ~ 0
+C14
+$Comp
+L Switch:SW_Push K15
+U 1 1 5ECCF4D8
+P 2000 5650
+F 0 "K15" H 2000 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2000 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2000 5650 60  0001 C CNN
+F 3 "" H 2000 5650 60  0000 C CNN
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K21
+U 1 1 5ECCF4E2
+P 5875 5650
+F 0 "K21" H 5875 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5875 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5875 5650 60  0001 C CNN
+F 3 "" H 5875 5650 60  0000 C CNN
+	1    5875 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K16
+U 1 1 5ECCF4EC
+P 2650 5650
+F 0 "K16" H 2650 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2650 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 5650 60  0001 C CNN
+F 3 "" H 2650 5650 60  0000 C CNN
+	1    2650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K17
+U 1 1 5ECCF4F6
+P 3300 5650
+F 0 "K17" H 3300 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3300 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3300 5650 60  0001 C CNN
+F 3 "" H 3300 5650 60  0000 C CNN
+	1    3300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K18
+U 1 1 5ECCF500
+P 3950 5650
+F 0 "K18" H 3950 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3950 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3950 5650 60  0001 C CNN
+F 3 "" H 3950 5650 60  0000 C CNN
+	1    3950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K19
+U 1 1 5ECCF50A
+P 4600 5650
+F 0 "K19" H 4600 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 4600 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4600 5650 60  0001 C CNN
+F 3 "" H 4600 5650 60  0000 C CNN
+	1    4600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K20
+U 1 1 5ECCF514
+P 5250 5650
+F 0 "K20" H 5250 5550 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5250 5550 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5250 5650 60  0001 C CNN
+F 3 "" H 5250 5650 60  0000 C CNN
+	1    5250 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 5650 1    60   Input ~ 0
+C15
+Text GLabel 2450 5650 1    60   Input ~ 0
+C16
+Text GLabel 3100 5650 1    60   Input ~ 0
+C17
+Text GLabel 3750 5650 1    60   Input ~ 0
+C18
+Text GLabel 4400 5650 1    60   Input ~ 0
+C19
+Text GLabel 5050 5650 1    60   Input ~ 0
+C20
+Text GLabel 5675 5650 1    60   Input ~ 0
+C21
+$Comp
+L Switch:SW_Push K22
+U 1 1 5ECCF525
+P 2000 6150
+F 0 "K22" H 2000 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2000 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2000 6150 60  0001 C CNN
+F 3 "" H 2000 6150 60  0000 C CNN
+	1    2000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K28
+U 1 1 5ECCF52F
+P 5875 6150
+F 0 "K28" H 5875 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5875 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5875 6150 60  0001 C CNN
+F 3 "" H 5875 6150 60  0000 C CNN
+	1    5875 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K23
+U 1 1 5ECCF539
+P 2650 6150
+F 0 "K23" H 2650 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 2650 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 6150 60  0001 C CNN
+F 3 "" H 2650 6150 60  0000 C CNN
+	1    2650 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K24
+U 1 1 5ECCF543
+P 3300 6150
+F 0 "K24" H 3300 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3300 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3300 6150 60  0001 C CNN
+F 3 "" H 3300 6150 60  0000 C CNN
+	1    3300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K25
+U 1 1 5ECCF54D
+P 3950 6150
+F 0 "K25" H 3950 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 3950 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3950 6150 60  0001 C CNN
+F 3 "" H 3950 6150 60  0000 C CNN
+	1    3950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K26
+U 1 1 5ECCF557
+P 4600 6150
+F 0 "K26" H 4600 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 4600 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4600 6150 60  0001 C CNN
+F 3 "" H 4600 6150 60  0000 C CNN
+	1    4600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K27
+U 1 1 5ECCF561
+P 5250 6150
+F 0 "K27" H 5250 6050 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5250 6050 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5250 6150 60  0001 C CNN
+F 3 "" H 5250 6150 60  0000 C CNN
+	1    5250 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 6150 1    60   Input ~ 0
+C22
+Text GLabel 3100 6150 1    60   Input ~ 0
+C24
+Text GLabel 3750 6150 1    60   Input ~ 0
+C25
+Text GLabel 4400 6150 1    60   Input ~ 0
+C26
+Text GLabel 5050 6150 1    60   Input ~ 0
+C27
+Text GLabel 5675 6150 1    60   Input ~ 0
+C28
+Text GLabel 2450 6150 1    60   Input ~ 0
+C23
+Text GLabel 3500 2600 2    60   Input ~ 0
+C6
+Text GLabel 3500 2700 2    60   Input ~ 0
+C7
+Text GLabel 3500 2400 2    60   Input ~ 0
+C4
+Text GLabel 3500 2500 2    60   Input ~ 0
+C5
+Text GLabel 3500 2300 2    60   Input ~ 0
+C3
+Text GLabel 3500 2200 2    60   Input ~ 0
+C2
+Text GLabel 3500 2100 2    60   Input ~ 0
+C1
+Text GLabel 1500 2500 0    60   Input ~ 0
+C19
+Text GLabel 3500 3400 2    60   Input ~ 0
+C26
+Text GLabel 1500 2600 0    60   Input ~ 0
+C20
+Text GLabel 3500 3300 2    60   Input ~ 0
+C8
+Text GLabel 1500 3200 0    60   Input ~ 0
+C10
+$Comp
+L Switch:SW_Push K29
+U 1 1 5ED8E3B0
+P 5525 6725
+F 0 "K29" H 5525 6625 60  0000 C CNN
+F 1 "keyboard_parts_KEYSW" H 5525 6625 60  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5525 6725 60  0001 C CNN
+F 3 "" H 5525 6725 60  0000 C CNN
+	1    5525 6725
+	1    0    0    -1  
+$EndComp
+Text GLabel 5325 6725 1    60   Input ~ 0
+C28
+Text GLabel 1500 3400 0    60   Input ~ 0
+C9
+Text GLabel 1500 3000 0    60   Input ~ 0
+C11
+Text GLabel 1500 1700 0    60   Input ~ 0
+C12
+Text GLabel 1500 1900 0    60   Input ~ 0
+C13
+Text GLabel 1500 2100 0    60   Input ~ 0
+C15
+Text GLabel 1500 2200 0    60   Input ~ 0
+C16
+Text GLabel 1500 2400 0    60   Input ~ 0
+C18
+Text GLabel 1500 2300 0    60   Input ~ 0
+C17
+Text GLabel 1500 2700 0    60   Input ~ 0
+C21
+Text GLabel 1500 2800 0    60   Input ~ 0
+C22
+Text GLabel 1500 2900 0    60   Input ~ 0
+C23
+Text GLabel 1500 3100 0    60   Input ~ 0
+C24
+Text GLabel 1500 3300 0    60   Input ~ 0
+C25
+Text GLabel 3500 3200 2    60   Input ~ 0
+C27
+Text GLabel 3500 3000 2    60   Input ~ 0
+C28
+Text GLabel 1500 2000 0    60   Input ~ 0
+C14
+Text GLabel 3500 2900 2    60   Input ~ 0
+R1
+Text GLabel 2200 6500 0    60   Input ~ 0
+R1
+Wire Wire Line
+	2200 4700 2200 5200
+Connection ~ 2200 5200
+Wire Wire Line
+	2200 5200 2200 5650
+Connection ~ 2200 5650
+Wire Wire Line
+	2200 5650 2200 6150
+Connection ~ 2200 6150
+Wire Wire Line
+	2200 6150 2200 6500
+Wire Wire Line
+	2850 4700 2850 5200
+Connection ~ 2850 5200
+Wire Wire Line
+	2850 5200 2850 5650
+Connection ~ 2850 5650
+Wire Wire Line
+	2850 5650 2850 6150
+Connection ~ 2850 6150
+Wire Wire Line
+	2850 6150 2850 6500
+Wire Wire Line
+	3500 4700 3500 5200
+Wire Wire Line
+	2200 6500 2850 6500
+Connection ~ 3500 5200
+Wire Wire Line
+	3500 5200 3500 5650
+Connection ~ 3500 5650
+Wire Wire Line
+	3500 5650 3500 6150
+Connection ~ 3500 6150
+Wire Wire Line
+	3500 6150 3500 6500
+Connection ~ 2850 6500
+Wire Wire Line
+	2850 6500 3500 6500
+Wire Wire Line
+	4150 4700 4150 5200
+Wire Wire Line
+	4150 6500 3500 6500
+Connection ~ 4150 5200
+Wire Wire Line
+	4150 5200 4150 5650
+Connection ~ 4150 5650
+Wire Wire Line
+	4150 5650 4150 6150
+Connection ~ 4150 6150
+Wire Wire Line
+	4150 6150 4150 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	4800 4700 4800 5200
+Wire Wire Line
+	4800 6500 4150 6500
+Connection ~ 4800 5200
+Wire Wire Line
+	4800 5200 4800 5650
+Connection ~ 4800 5650
+Wire Wire Line
+	4800 5650 4800 6150
+Connection ~ 4800 6150
+Wire Wire Line
+	4800 6150 4800 6500
+Connection ~ 4150 6500
+Wire Wire Line
+	5450 4700 5450 5200
+Wire Wire Line
+	5450 6500 4800 6500
+Connection ~ 5450 5200
+Wire Wire Line
+	5450 5200 5450 5650
+Connection ~ 5450 5650
+Wire Wire Line
+	5450 5650 5450 6150
+Connection ~ 5450 6150
+Wire Wire Line
+	5450 6150 5450 6500
+Connection ~ 4800 6500
+Wire Wire Line
+	6075 4700 6075 5200
+Wire Wire Line
+	6075 6500 5750 6500
+Connection ~ 6075 5200
+Wire Wire Line
+	6075 5200 6075 5650
+Connection ~ 6075 5650
+Wire Wire Line
+	6075 5650 6075 6150
+Connection ~ 6075 6150
+Wire Wire Line
+	6075 6150 6075 6500
+Connection ~ 5450 6500
+Wire Wire Line
+	5725 6725 5750 6725
+Wire Wire Line
+	5750 6725 5750 6500
+Connection ~ 5750 6500
+Wire Wire Line
+	5750 6500 5450 6500
+NoConn ~ 3500 2800
+$EndSCHEMATC
